@@ -2,7 +2,8 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-vim.keymap.set("n", "<leader>sf", LazyVim.pick("auto"), { desc = "[S]earch [F]iles (Root Dir)" })
+-- Telescope find files in current directory
+-- vim.keymap.set("n", "<leader>sf", LazyVim.pick("auto"), { desc = "[S]earch [F]iles (Root Dir)" })
 
 -- Easier Commandline
 vim.keymap.set("n", ";", ":", { desc = "Quicker Commandline" })

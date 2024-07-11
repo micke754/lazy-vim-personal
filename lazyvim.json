@@ -1,6 +1,11 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.editor.mini-files",
+    "lazyvim.plugins.extras.lang.nix",
+    "lazyvim.plugins.extras.lang.nushell",
+    "lazyvim.plugins.extras.lang.r",
+    "lazyvim.plugins.extras.lang.sql",
+    "lazyvim.plugins.extras.lang.toml"
   ],
   "news": {
     "NEWS.md": "6077"
