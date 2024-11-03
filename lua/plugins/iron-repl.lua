@@ -26,6 +26,7 @@ return {
         visual_send = "<space>rc",
         send_file = "<space>rf",
         send_line = "<space>rl",
+        send_paragraph = "<space>rp",
         send_mark = "<space>rm",
         mark_motion = "<space>rmc",
         mark_visual = "<space>rmc",
