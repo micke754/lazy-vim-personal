@@ -12,7 +12,7 @@ return {
           python = {
             -- Can be a table or a function that
             -- returns a table (see below)
-            command = { ".venv/Scripts/python" },
+            command = { ".venv/bin/python" },
           },
         },
         -- How the repl window will be displayed

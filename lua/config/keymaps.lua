@@ -4,8 +4,8 @@
 
 -- Easier Commandline
 -- vim.keymap.set("n", ";", ":", { desc = "Quicker Commandline" })
-vim.keymap.set("n", "<Leader>bw", ":w<cr>", { desc = "Buffer Save" })
-vim.keymap.set("n", "<Leader>bq", ":q<cr>", { desc = "Buffer Save & Quit" })
+vim.keymap.set("n", "<Leader>w", ":w<cr>", { desc = "Buffer Save" })
+vim.keymap.set("n", "<Leader>q", ":q<cr>", { desc = "Buffer Save & Quit" })
 
 --  See `:help wincmd` for a list of all window commands
 vim.keymap.set("n", "<C-Left>", "<C-w><C-h>", { desc = "Move focus to the left window" })
