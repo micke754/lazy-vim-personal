@@ -6,18 +6,20 @@ return {
     iron.setup({
       config = {
         -- Whether a repl should be discarded or not
-        scratch_repl = true,
+        scratch_repl = false,
         -- Your repl definitions come here
         repl_definition = {
           python = {
             -- Can be a table or a function that
             -- returns a table (see below)
-            command = { ".venv/bin/python" },
+            command = { ".venv/bin/ipython" },
+            format = require("iron.fts.common").bracketed_paste_python,
           },
         },
         -- How the repl window will be displayed
         -- See below for more information
-        repl_open_cmd = require("iron.view").split("40%"),
+        -- repl_open_cmd = require("iron.view").split("40%"),
+        repl_open_cmd = require("iron.view").split.vertical("40%"),
       },
       -- Iron doesn't set keymaps by default anymore.
       -- You can set them here or manually add keymaps to the functions in iron.core
